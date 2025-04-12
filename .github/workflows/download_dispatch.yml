@@ -3,10 +3,10 @@ name: 下载JM本子 (dispatch)
 on:
   workflow_dispatch:
     inputs:
-      JM_ALBUM_IDS:518074
+      JM_ALBUM_IDS:
         type: string
         description: 本子id（多个id用-隔开，如 '123-456-789'）
-        required: true
+        required: false
 
       JM_PHOTO_IDS:
         type: string
